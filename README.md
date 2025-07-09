@@ -38,17 +38,29 @@ A modern e-commerce frontend web application built with **React**, **Redux**, **
   
 4. Open http://localhost:3000 in your browser.
 
- 📂 Folder Structure
+📁 Folder Structure
 
-shop-redux/
+shopredux/
+├── build/
+├── node_modules/
 ├── public/
 ├── src/
 │   ├── components/
-│   ├── redux/
 │   ├── pages/
+│   ├── redux/
+│   ├── App.css
 │   ├── App.js
+│   ├── App.test.js
+│   ├── index.css
 │   ├── index.js
-├── tailwind.config.js
-├── postcss.config.js
+│   ├── logo.svg
+│   ├── reportWebVitals.js
+│   └── setupTests.js
+├── .gitignore
 ├── package.json
+├── package-lock.json
+├── tailwind.config.js
 └── README.md
+
+📜 License
+This project is open-source and available under the MIT License.
